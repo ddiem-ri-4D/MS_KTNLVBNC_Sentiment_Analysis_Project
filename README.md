@@ -1,9 +1,9 @@
 # 1. Description
-* Hello guys, this is my small application used to predict comments are positive or negative.
-* I used `selenium` to crawl the entire data from Shopee Vietnam with over than 23.000 records. Each record consists mainly of the client's comment and his number of stars for the his comment.
+* Hello guys, this is our small application used to predict comments are positive or negative.
+* We used `selenium` to crawl the entire data from Shopee Vietnam with over than 23.000 records. Each record consists mainly of the client's comment and his number of stars for the his comment.
 * After training phase and several model evaluation techniques, the model was embedded into web using Django framework.
-* The main field that my app concentrate on is fashion. So if you try to force the model predict on a wrong data (such as technology comments, food comments,...), The possibility is that the model can not predict accurately.
-* So, if you are interested in my application, you can read more the documents inside the directory `Docs`. I write with such a clarity and precision for what techniques I used.
+* The main field that our app concentrate on is fashion. So if you try to force the model predict on a wrong data (such as technology comments, food comments,...), The possibility is that the model can not predict accurately.
+* So, if you are interested in our application, you can read more the documents inside the directory `Docs`. I write with such a clarity and precision for what techniques I used.
 
 # 2. Installation
 ## 2.1. Option 1: Naive way
@@ -26,7 +26,7 @@
   python manage.py runserver
   ```
   Because this application uses TensorFlow, SkLearn and some other heavy packages. So for the first time you run this app, it will take several seconds to load model and initialize some configuration, after that moment, the app can work smoothly.
-* OK, open your favorite browser and go to url [http://localhost:8000](http://localhost:8000/), the super gorgeous interface of my app will appear like this 😅 (sorry front-end developers).
+* OK, open your favorite browser and go to url [http://localhost:8000](http://localhost:8000/), the super gorgeous interface of our app will appear like this 😅 (sorry front-end developers).
   ![](./images/rm_00.png)
 
 ## 2.2. Option 2: Docker way
@@ -73,4 +73,4 @@
     ![](images/rm_08.png)
     ![](images/rm_09.png)
 
-* OK, cool. Thank you so much. Let clone or download as zip my application and run on your machine. See you 😍.
+* OK, cool. Thank you so much. Let clone or download as zip our application and run on your machine. See you 😍.
