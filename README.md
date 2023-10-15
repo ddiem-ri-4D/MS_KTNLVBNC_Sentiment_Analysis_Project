@@ -32,7 +32,7 @@
 ## 2.2. Option 2: Docker way
 - Run the followed command to run the application.
   ```bash
-  docker run --name sentiment-analysis -p 8000:8000 -d manhcuong8499/sentiment-analysis
+  docker run --name sentiment-analysis -p 8000:8000 -d mydiem1802/sentiment-analysis
   ```
 - [Optional] Verify the application is running.
   ```bash
@@ -54,7 +54,6 @@
 - Visit the [http://localhost:8000](http://localhost:8000) to see the application.
 
 # 3. Demo and usage
-* Realtime video demo with so cute host: [https://youtu.be/iQgCI3D1mdo](https://youtu.be/iQgCI3D1mdo)
 * After you run the application successfully, enter your comment at the textarea component, then click the button **Send** and wait a bit to get the predicted result.
 * Let's try with some positive comments.
   ![](./images/rm_01.png)

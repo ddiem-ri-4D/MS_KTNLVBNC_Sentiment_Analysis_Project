@@ -1,7 +1,7 @@
 # Use an official Python runtime as the base image
 FROM ubuntu:20.04
 
-LABEL maintainer="Cuong. Duong Manh <cuongdm8499@gmail.com>" name="sentiment-analysis" build-date="20231011"
+LABEL maintainer="Diem. My <mydiem1802@gmail.com>" name="sentiment-analysis" build-date="20231011"
 
 # Set environment variables
 ENV PYTHONUNBUFFERED 1
