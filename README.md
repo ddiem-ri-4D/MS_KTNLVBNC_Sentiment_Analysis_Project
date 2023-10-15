@@ -27,6 +27,7 @@
   ```
   Because this application uses TensorFlow, SkLearn and some other heavy packages. So for the first time you run this app, it will take several seconds to load model and initialize some configuration, after that moment, the app can work smoothly.
 * OK, open your favorite browser and go to url [http://localhost:8000](http://localhost:8000/), the super gorgeous interface of our app will appear like this 😅 (sorry front-end developers).
+
   ![](./images/rm_00.png)
 
 ## 2.2. Option 2: Docker way
