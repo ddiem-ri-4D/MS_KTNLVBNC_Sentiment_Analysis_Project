@@ -33,7 +33,7 @@
 ## 2.2. Option 2: Docker way
 - Run the followed command to run the application.
   ```bash
-  docker run --name sentiment-analysis -p 8000:8000 -d mydiem1802/sentiment-analysis
+  docker run --name sentiment-analysis -p 8000:8000 -d quay.io/cuongdm8499/sentiment-analysis
   ```
 - [Optional] Verify the application is running.
   ```bash
